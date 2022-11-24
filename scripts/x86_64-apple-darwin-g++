@@ -1,0 +1,3 @@
+#!/usr/local/bin/bash
+SYSROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk
+exec '/Library/Developer/CommandLineTools/usr/bin/g++' -isysroot $SYSROOT -arch x86_64 "${@}"

@@ -1,0 +1,2 @@
+#!/usr/local/bin/bash
+exec '/usr/local/opt/binutils/bin/gobjdump' "${@}"
