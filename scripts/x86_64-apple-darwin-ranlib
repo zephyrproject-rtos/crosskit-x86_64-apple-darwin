@@ -1,2 +1,2 @@
-#!/usr/local/bin/bash
+#!/opt/homebrew/bin/bash
 exec '/Library/Developer/CommandLineTools/usr/bin/ranlib' "${@}"
