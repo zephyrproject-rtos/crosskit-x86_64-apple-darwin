@@ -6,6 +6,6 @@ environment.
 
 The build system must satisfy the following requirements:
 
-* macOS 11.6
+* macOS 14
 * Xcode Command Line Tools
 * Binutils (Homebrew `binutils` package)

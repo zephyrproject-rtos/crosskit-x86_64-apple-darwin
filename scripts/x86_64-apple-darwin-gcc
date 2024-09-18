@@ -1,3 +1,3 @@
 #!/opt/homebrew/bin/bash
-SYSROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk
+SYSROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk
 exec '/Library/Developer/CommandLineTools/usr/bin/gcc' -isysroot $SYSROOT -arch x86_64 "${@}"
